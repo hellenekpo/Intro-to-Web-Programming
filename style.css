@@ -1,0 +1,45 @@
+body {
+	background-color: lavender;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-style:italic; 
+	font-size: 13pt;
+  margin: 2em;
+
+}
+
+h1 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+  font-style: italic;
+  color: #373fff;
+}
+
+p {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 14pt;
+	color: #373fff;
+}
+
+
+#hellen {
+  background: #FFBCFB;
+}
+
+ul.specifColor {
+	background:#FF9EDC;
+}
+
+a:link {
+  color: hotpink;
+}
+
+a:visited {
+  color: deeppink;
+}
+
+a:hover {
+  color: paleturquoise;
+}
+
+a:active {
+  color: pink;
+}

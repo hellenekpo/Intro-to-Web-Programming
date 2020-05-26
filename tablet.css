@@ -1,0 +1,117 @@
+.left, .right {
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+  float: left;
+  width: 60%; /* The width is 60%, by default */
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+img.center {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+      width: 100%;
+  height: auto;
+}
+
+   img.first {
+      float: right;
+          width: 100%;
+  height: auto;
+     display: block;
+    }
+    h1.relative {
+      position: relative;
+      left: 50%;
+      width: 180px;
+      height: 35px;
+      border: 3px solid lavender;
+    }
+body {
+	background-color: lavender;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-style:italic; 
+	font-size: 13pt;
+  margin: 2em;
+
+}
+
+img.right1 {
+  display:block;
+    margin-left: auto;
+    float:right;
+      width: 50%;
+  height: auto;
+}
+
+img.left1 {
+display:block;
+    float:left;
+    margin-right: auto;
+      width: 50%;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+  font-style: italic;
+  color: #373fff;
+}
+
+p {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 14pt;
+	color: #373fff;
+}
+
+table {
+    text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+  font-style: italic;
+  color: #373fff;
+}
+
+
+#hellen {
+  background: #FFBCFB;
+}
+
+ul.specifColor {
+	background:#FF9EDC;
+}
+
+a:link {
+  color: hotpink;
+}
+
+a:visited {
+  color: deeppink;
+}
+
+a:hover {
+  color: paleturquoise;
+}
+
+a:active {
+  color: pink;
+}
+
+div {
+  background-color: lavender;
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  text-align:center;border:10px solid hotpink;
+}
